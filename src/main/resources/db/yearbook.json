@@ -1,0 +1,81 @@
+{
+  "order": 100,
+  "settings": {
+    "number_of_replicas": 0
+  },
+  "mappings": {
+    "doc": {
+      "dynamic": false,
+      "properties": {
+        "id": {
+          "type": "text"
+        },
+        "citytr": {
+          "type": "text",
+          "analyzer": "ik_max_word",
+          "search_analyzer": "ik_max_word"
+        },
+        "classes": {
+          "type": "text",
+          "analyzer": "ik_max_word",
+          "search_analyzer": "ik_max_word"
+        },
+        "code": {
+          "type": "text"
+        },
+        "countytr": {
+          "type": "text",
+          "analyzer": "ik_max_word",
+          "search_analyzer": "ik_max_word"
+        },
+        "distinct": {
+          "type": "text",
+          "analyzer": "ik_max_word",
+          "search_analyzer": "ik_max_word"
+        },
+        "from": {
+          "type": "text",
+          "analyzer": "ik_max_word",
+          "search_analyzer": "ik_max_word"
+        },
+        "full_name": {
+          "type": "keyword"
+        },
+        "MD5": {
+          "type": "keyword"
+        },
+        "index_name": {
+          "type": "text",
+          "analyzer": "ik_max_word",
+          "search_analyzer": "ik_max_word"
+        },
+        "origin": {
+          "type": "keyword"
+        },
+        "provincetr": {
+          "type": "text",
+          "analyzer": "ik_max_word",
+          "search_analyzer": "ik_max_word"
+        },
+        "statistic_num": {
+          "type": "text"
+        },
+        "tag": {
+          "type": "text",
+          "analyzer": "ik_max_word",
+          "search_analyzer": "ik_max_word"
+        },
+        "unit": {
+          "type": "text",
+          "analyzer": "ik_max_word",
+          "search_analyzer": "ik_max_word"
+        },
+        "year": {
+          "type": "text",
+          "analyzer": "ik_max_word",
+          "search_analyzer": "ik_max_word"
+        }
+      }
+    }
+  }
+}
